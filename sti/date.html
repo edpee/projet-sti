@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="JavaScript-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devoir controle 2
+    </title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<style>
+    body{
+        background-color: rgb(240, 220, 78);
+    }
+    button{
+        align-items: center;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <header>
+        <div class="home">
+            <button onclick="window.location.href='INDEX.html';">
+                <img src="JavaScript-logo.png" alt="Button Image" width="45px">
+            </button>
+        </div>
+        <div class="title">
+            <img src="JAVA SCRIpt.png" width="" >
+        </div>
+    
+    </header>
+    <nav>
+        <div class="navbuttons">
+            <button class="button1"onclick=" window.location.href='decoding functions.html';" >
+                <img src="decoding funtions.png" alt="Button Image" width="300">
+            </botton>
+            <button class="button2" onclick="window.location.href='arithmetic.html';" >
+                <img src="arithmetic.png" alt="Button Image" width="300">
+            </botton>
+            <button class="button3" onclick="window.location.href='CHAIN.html';" >
+                <img src="JEUX.png" alt="Button Image" width="300">
+            </botton>
+            <button class="button4" onclick="window.location.href='date.html';" >
+                <img src="DATE.png" alt="Button Image" width="300">
+            </botton>
+            <button class="button4" onclick="window.location.href='ABOUT.html';" >
+                <img src="ABOUT.png" alt="Button Image" width="300">
+            </botton>
+        </div>  
+    </nav>
+    <style>
+        body{
+            background-color: rgb(240, 220, 78);
+        }
+        button{
+            align-items: center;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+        }
+        p {
+            white-space: pre;
+            word-break: break-word;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <script src="js.js" ></script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center><button " class="button1" onclick="afficherDate()">
+        <img src="affdate.png" alt="Button Image" width="300" id="decoding">
+    </button></center>
+    <br>
+    <p>
+        function afficherDate() {
+            var d = new Date();
+            var jj = d.getDay();
+            var mm = d.getMonth();
+            var da = d.getDate();
+            var y = d.getFullYear();
+        
+            var jour, mois;
+        
+            switch(jj) {
+                case 0:
+                    jour = "Dimanche";
+                    break;
+                case 1:
+                    jour = "Lundi";
+                    break;
+                case 2:
+                    jour = "Mardi";
+                    break;
+                case 3:
+                    jour = "Mercredi";
+                    break;
+                case 4:
+                    jour = "Jeudi";
+                    break;
+                case 5:
+                    jour = "Vendredi";
+                    break;
+                case 6:
+                    jour = "Samedi";
+                    break;
+            }
+        
+            switch(mm) {
+                case 0:
+                    mois = "Janvier";
+                    break;
+                case 1:
+                    mois = "Février";
+                    break;
+                case 2:
+                    mois = "Mars";
+                    break;
+                case 3:
+                    mois = "Avril";
+                    break;
+                case 4:
+                    mois = "Mai";
+                    break;
+                case 5:
+                    mois = "Juin";
+                    break;
+                case 6:
+                    mois = "Juillet";
+                    break;
+                case 7:
+                    mois = "Août";
+                    break;
+                case 8:
+                    mois = "Septembre";
+                    break;
+                case 9:
+                    mois = "Octobre";
+                    break;
+                case 10:
+                    mois = "Novembre";
+                    break;
+                case 11:
+                    mois = "Décembre";
+                    break;
+            }
+        
+            var date = jour + " " + da + " " + mois + " " + y;
+            alert(date);
+        }
+    </p>
+    <footer>
+        <p>ADEM TOUNSI</p><BR>
+        <p>2069©</p>
+    </footer>
+</body>
+</html>

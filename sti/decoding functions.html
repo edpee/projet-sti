@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="JavaScript-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devoir controle 2
+    </title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<style>
+    body{
+        background-color: rgb(240, 220, 78);
+    }
+    button{
+        align-items: center;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <header>
+        <div class="home">
+            <button onclick="window.location.href='INDEX.html';">
+                <img src="JavaScript-logo.png" alt="Button Image" width="45px">
+            </button>
+        </div>
+        <div class="title">
+            <img src="JAVA SCRIpt.png" width="" >
+        </div>
+    
+    </header>
+    <nav>
+        <div class="navbuttons">
+            <button class="button1"onclick=" window.location.href='decoding functions.html';" >
+                <img src="decoding funtions.png" alt="Button Image" width="300">
+            </botton>
+            <button class="button2" onclick="window.location.href='arithmetic.html';" >
+                <img src="arithmetic.png" alt="Button Image" width="300">
+            </botton>
+            <button class="button3" onclick="window.location.href='CHAIN.html';" >
+                <img src="JEUX.png" alt="Button Image" width="300">
+            </botton>
+            <button class="button4" onclick="window.location.href='date.html';" >
+                <img src="DATE.png" alt="Button Image" width="300">
+            </botton>
+            <button class="button4" onclick="window.location.href='ABOUT.html';" >
+                <img src="ABOUT.png" alt="Button Image" width="300">
+            </botton>
+        </div>  
+    </nav>
+    <style>
+        body{
+            background-color: rgb(240, 220, 78);
+        }
+        button{
+            align-items: center;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+        }
+        p {
+            white-space: pre;
+            word-break: break-word;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <script src="js.js" ></script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center><button " class="button1" onclick="bindec()" >
+        <img src="bin to dec.png" alt="Button Image" width="300" id="decoding">
+    </button></center>
+    <br>
+    <p>
+        function decbin(){
+            var a=prompt("saisir votre code binaire:")
+            var b=parseInt(a,2)
+            alert(b)
+    </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center><button " class="button1" onclick="decbin()">
+        <img src="DEC TO BIN.png" alt="Button Image" width="300" id="decoding">
+    </button></center>
+    <br>
+    <p>
+        function bindec(){
+            var n=prompt("saisir votre code decimal:")
+            var n=parseInt(n)
+            let binary = '';
+            while (n > 0) {
+              binary = (n % 2).toString() + binary;
+              n = Math.floor(n / 2);
+            }
+            alert(binary)
+    }
+    </p>
+    <footer>
+        <p>ADEM TOUNSI</p><BR>
+        <p>2069©</p>
+    </footer>
+</body>
+</html>

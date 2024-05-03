@@ -1,0 +1,60 @@
+body{
+    font-family: Neutra Text;
+    background: rgb(240, 220, 78);
+    cursor: url(data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPy0tPgoKPHN2ZyB2ZXJzaW9uPSIxLjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjI1IiBoZWlnaHQ9IjI1IiB2aWV3Qm94PSIwIDAgMzUwIDM1MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+CiA8ZyBmaWxsPSIjMDAwMDAwIj4KICA8cGF0aCBkPSJNNTcgMTc1LjUgbDAgLTE2NC41IDMuOCAwIGMzLjYgMCA2LjkgMy4yIDExNy41IDExMy44IDEwNC4zIDEwNC4zIDExMy43IDExNCAxMTMuNyAxMTcgbDAgMy4yIC02Ni44IDAgLTY2LjcgMCAtNDcuNSA0Ny41IGMtNDMuMiA0My4yIC00Ny44IDQ3LjUgLTUwLjcgNDcuNSBsLTMuMyAwIDAgLTE2NC41eiI+PC9wYXRoPgogPC9nPgogPGcgZmlsbD0iI2ZmZmYwMCI+CiAgPHBhdGggZD0iTTU4LjEgMzQ5LjIgYy0zLjcgLTAuNiAtNi44IC0zIC04LjUgLTYuNyAtMS40IC0zIC0xLjYgLTE5LjcgLTEuNiAtMTY3LjUgMCAtMTc5LjcgLTAuNCAtMTY4LjYgNS42IC0xNzIuNSAyLjcgLTEuOCA5LjIgLTIuMyAxMS43IC0wLjkgMC44IDAuNSA1NC4yIDUzLjQgMTE4LjYgMTE3LjcgMTI2IDEyNS42IDEyMC4xIDExOS40IDExNy4xIDEyNi42IC0wLjYgMS42IC0yLjMgNCAtMy43IDUuMyBsLTIuNSAyLjMgLTY2LjYgMC4zIC02Ni43IDAuMiAtNDcgNDcgYy0yNS45IDI1LjkgLTQ3LjMgNDcgLTQ3LjYgNDcgLTAuMiAwIC0xLjggMC40IC0zLjQgMC44IC0xLjcgMC40IC00LjEgMC42IC01LjQgMC40eiBtMTY0LjQgLTEwNy4yIGw2NyAwIC0xMTQgLTExNCBjLTYyLjcgLTYyLjcgLTExNC4zIC0xMTQgLTExNC43IC0xMTQgLTAuNSAwIC0wLjggNzIuOCAtMC44IDE2MS43IGwwIDE2MS44IDQ3LjggLTQ3LjggNDcuNyAtNDcuNyA2NyAweiI+PC9wYXRoPgogPC9nPgo8L3N2Zz4=) 3 0, auto !important;
+}
+p {
+    white-space: pre;
+    word-break: break-word;
+    font-size: larger;
+}
+.home button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    float: left;
+
+    
+}
+.title img{
+    width: 400px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.navbuttons button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+
+}
+header{
+    background-color: rgb(240, 220, 78);
+    float: none;
+}
+section{
+    align-items: center;
+    
+}
+nav{
+    background-color: rgb(50, 50, 48);
+    
+}
+footer{
+    background-color:rgb(240, 220, 78) ;
+    color: rgb(50, 50, 48);;
+    text-align: center;
+    font-style: bold;
+    height: 100px; ;
+}
+.button1{
+    align-items: center;
+}
+.button2{
+    align-self: center;
+}
+.button3{
+    
+}
